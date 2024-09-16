@@ -1,11 +1,5 @@
-import { 
-  ArrowRight, 
-  GoogleLogo, 
-  AmazonLogo, 
-  PhilipsLogo, 
-  ToshibaLogo, 
-  SamsungLogo,
-} from "../utils/icons.util";
+import { ArrowRight } from "../utils/icons.util";
+import { NewsletterLogos } from "../utils/icons.util";
 
 export default function Newsletter() {
   return (
@@ -25,15 +19,11 @@ export default function Newsletter() {
         <input type="text" placeholder="Email address"/>
         <button>
           <span>Subscribe</span>
-          <ArrowRight className={{color: "#FFF"}} />
+          <ArrowRight className="arrowright" />
         </button>
       </div>
       <div className="companylogo">
-        <GoogleLogo />
-        <AmazonLogo />
-        <PhilipsLogo />
-        <ToshibaLogo />
-        <SamsungLogo />
+        <NewsletterLogos />
       </div>
     </div>
   );
